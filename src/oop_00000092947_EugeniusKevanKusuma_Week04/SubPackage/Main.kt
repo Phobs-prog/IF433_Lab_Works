@@ -19,4 +19,15 @@ fun main() {
     tesla.accelerate()
     tesla.honk()
     tesla.openTrunk()
+
+    println("\n=== Employee Hierarchy ===")
+
+    val manager = Manager("Kevin", 8000000)
+    val developer = Developer("Eugenius", 7000000, "Kotlin")
+
+    manager.work()
+    println("Bonus Manager: Rp ${manager.calculateBonus()}")
+
+    developer.work()
+    println("Bonus Developer: Rp ${developer.calculateBonus()}")
 }

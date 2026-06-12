@@ -1,2 +1,0 @@
-package oop_00000092947_EugeniusKevanKusuma_Wekk09.SubPackage
-
